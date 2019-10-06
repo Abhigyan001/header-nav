@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.349),rgba(0, 0, 0, 0.247)), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.header-box {
+
+    background-color:rgba(0, 0, 0, 0.356);
+    width: 40%;
+    text-align: center;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-title {
+
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+
+.header-link {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356), rgba(255, 0, 0, 0.295));
+    border-radius: 100px;
+    padding: 0.7rem 1.2rem;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
